@@ -1,0 +1,671 @@
+{
+  "title": "The history of rust",
+  "tagline": "From a pillar in Delhi that hardly rusts to a global bill of trillions, people have learned that rust is a small battery.",
+  "intro": "People have fought rust for about two thousand years, long before they knew what it was. Batteries and ships' hulls turned it into a question of chemistry, then electricity. Today we know how it works and what it costs, and we can use that to protect metal.",
+  "eras": [
+    {
+      "id": "old",
+      "name": "Old iron, old tricks",
+      "from": 77,
+      "to": 1700,
+      "color": "#ffb547",
+      "summary": "Coatings and clever iron that lasted, with no theory behind them."
+    },
+    {
+      "id": "ships",
+      "name": "Ships, batteries and sacrifice",
+      "from": 1761,
+      "to": 1860,
+      "color": "#8ef0ff",
+      "summary": "Copper hulls, the first battery and the idea of a metal that sacrifices itself."
+    },
+    {
+      "id": "science",
+      "name": "Rust becomes a science",
+      "from": 1861,
+      "to": 1970,
+      "color": "#c49bff",
+      "summary": "Paint, stainless steel and weathering steel, and a theory of how rust works."
+    },
+    {
+      "id": "cost",
+      "name": "Counting the bill",
+      "from": 1949,
+      "to": 2026,
+      "color": "#ff7a59",
+      "summary": "Cost studies, a new look at old iron, and the microbes at work on a wreck."
+    }
+  ],
+  "events": [
+    {
+      "year": 77,
+      "date": "c. 77 CE",
+      "era": "old",
+      "art": "scroll",
+      "title": "Pliny writes down how to keep iron from rusting",
+      "who": "Pliny the Elder",
+      "where": "Rome",
+      "country": "Italy",
+      "text": "In Book 34 of his Natural History, Pliny notes that iron can be shielded from rust with lead compounds, gypsum and a plant pitch. He says the Greeks called rust antipathia, and he repeats a story that a religious rite could keep a chain at Zeugma from rusting.",
+      "why": "It is one of the oldest written records of paint-like coatings used to keep iron from rusting.",
+      "box": "coat",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "year": 400,
+      "date": "c. 400 CE (4th to 5th century)",
+      "era": "old",
+      "art": "mountain",
+      "key": true,
+      "title": "The Iron Pillar of Delhi is raised",
+      "who": "Makers of the Gupta period",
+      "where": "Delhi, India (first set up elsewhere, probably Udayagiri)",
+      "country": "India",
+      "text": "A pillar of forge-welded wrought iron, about 7 metres tall, was made in the Gupta period and is linked to the king Chandragupta II. It has stood in the weather for about 1,600 years with little rust, and today it stands near New Delhi.",
+      "why": "It showed that iron can last for centuries, and later study showed how.",
+      "box": "others",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 1680,
+      "date": "before the 1680s",
+      "era": "old",
+      "art": "person",
+      "title": "Zinc-coated iron on Indian armour",
+      "who": "Indian armourers",
+      "where": "India",
+      "country": "India",
+      "text": "Pieces of Indian armour in the Royal Armouries collection in the UK are coated with zinc over iron. Inscriptions on them date them to before the 1680s.",
+      "why": "It is among the earliest known cases of zinc used on iron, long before galvanising had a name.",
+      "box": "coat",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 1761,
+      "date": "1761",
+      "era": "ships",
+      "art": "boat",
+      "title": "A Royal Navy ship gets a copper hull",
+      "who": "Royal Navy",
+      "where": "England",
+      "country": "United Kingdom",
+      "text": "HMS Alarm was the first Royal Navy ship with a fully copper-sheathed hull. The copper kept out worms and weed. Years later the iron nails that held it on were found badly rotted, because iron touching copper in seawater corrodes fast.",
+      "why": "It was an early, costly lesson in galvanic corrosion, the same effect that makes iron rust faster beside copper.",
+      "box": "speed",
+      "sources": [
+        22
+      ]
+    },
+    {
+      "year": 1794,
+      "date": "1794",
+      "era": "ships",
+      "art": "quill",
+      "title": "Elizabeth Fulhame says water takes part in oxidation",
+      "who": "Elizabeth Fulhame",
+      "where": "Edinburgh, Scotland",
+      "country": "United Kingdom",
+      "text": "In An Essay on Combustion, Fulhame argued that many oxidation reactions only happen when water is present, and that water is used and then given back. She also reduced metal salts to metals in water at room temperature.",
+      "why": "Rust, too, needs water, and her work was an early step toward seeing oxidation as chemistry in solution.",
+      "box": "cell",
+      "sources": [
+        21
+      ]
+    },
+    {
+      "year": 1800,
+      "date": "1800",
+      "era": "ships",
+      "art": "battery",
+      "key": true,
+      "title": "Volta describes the first battery",
+      "who": "Alessandro Volta",
+      "where": "Pavia, Italy",
+      "country": "Italy",
+      "text": "Volta wrote to Joseph Banks of the Royal Society about a pile of different metals that gave a steady electric current. The letter was printed in the Philosophical Transactions that year.",
+      "why": "A steady current opened electrochemistry, and a rusting drop is a small battery too.",
+      "box": "cell",
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 1822,
+      "date": "1822",
+      "era": "ships",
+      "art": "boat",
+      "title": "The Navy Board asks Humphry Davy about copper hulls",
+      "who": "Humphry Davy",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "The Navy Board asked Davy, then President of the Royal Society, to advise on the corrosion of the copper sheets on Royal Navy ships. He began work on it himself in 1823.",
+      "why": "A government problem about ships' hulls brought one of the best chemists of the day to corrosion.",
+      "box": "anode",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1824,
+      "date": "22 January 1824",
+      "era": "ships",
+      "art": "flask",
+      "key": true,
+      "title": "Davy shows that a sacrificial metal can protect copper",
+      "who": "Humphry Davy",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "In a paper read to the Royal Society, Davy reported tests of tin, zinc and iron as protectors for ships' copper. Tin stopped working once a chloride film formed on it, while zinc and iron kept working, and iron was cheaper. A small area of the protector was enough to keep the copper clean.",
+      "why": "It is the first clear case of cathodic protection, the idea behind sacrificial anodes today.",
+      "box": "anode",
+      "sources": [
+        0,
+        20
+      ]
+    },
+    {
+      "year": 1825,
+      "date": "19 July 1825",
+      "era": "ships",
+      "art": "scales",
+      "title": "The Admiralty ends the copper-protector project",
+      "who": "Admiralty",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "Iron protectors kept the copper bright, but some ships with too many of them grew weed and barnacles. On 19 July 1825 the Admiralty told the Navy Board to stop the project, about two years after it began.",
+      "why": "Protection worked chemically, but the cure had side effects, and engineers had to balance them.",
+      "box": "anode",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1834,
+      "date": "1834",
+      "era": "ships",
+      "art": "coil",
+      "title": "Faraday proposes the words anode and cathode",
+      "who": "Michael Faraday",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "Faraday, who had helped Davy with his experiments, proposed the words cathode and anode in his 1834 paper on electrochemistry. Davy's protecting metals are now called anodes.",
+      "why": "Corrosion science still describes rusting in his words: anode, cathode, electrolyte.",
+      "box": "cell",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1837,
+      "date": "1837",
+      "era": "ships",
+      "art": "gear",
+      "title": "Sorel patents a way to coat iron with zinc",
+      "who": "Stanislas Sorel",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Sorel patented a method of protecting iron from rust by dipping it in molten zinc or by coating it with a zinc-based paint. It was a forerunner of modern hot-dip galvanising. Sources give slightly different days in 1837, and zinc dipping was known earlier.",
+      "why": "Zinc coatings became the most common way to protect steel, and they sacrifice themselves if scratched.",
+      "box": "coat",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 1889,
+      "date": "1889",
+      "era": "science",
+      "art": "building",
+      "title": "The Eiffel Tower gets its first coat of paint",
+      "who": "Gustave Eiffel's workshop",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "The tower was first painted with four coats of Venetian red lead paint. Since then it has been repainted about every seven years on average, 19 times in 130 years, with a twentieth campaign starting in 2019. Each campaign takes about 16 months.",
+      "why": "It shows that painting is a repeating job: a barrier works only while it is whole.",
+      "box": "coat",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "year": 1890,
+      "date": "1890",
+      "era": "science",
+      "art": "bolt",
+      "title": "Edison tries a powered system on ships",
+      "who": "Thomas Edison",
+      "where": "United States",
+      "country": "United States",
+      "text": "Thomas Edison tried to protect ships with an applied current. It failed, because there was no suitable power source or long-lasting anode material.",
+      "why": "The idea of pushing current into the steel was sound, and it came back once better parts existed.",
+      "box": "anode",
+      "sources": [
+        20
+      ]
+    },
+    {
+      "year": 1913,
+      "date": "13 August 1913",
+      "era": "science",
+      "art": "molecule",
+      "key": true,
+      "title": "Brearley makes the first true stainless steel",
+      "who": "Harry Brearley",
+      "where": "Sheffield, England",
+      "country": "United Kingdom",
+      "text": "Working at the Brown-Firth research laboratory, Brearley found that adding chromium to iron made a metal that did not rust. He had tried low-carbon steels with about 12 percent chromium in 1912. The first true stainless steel, with 0.24 percent carbon and 12.8 percent chromium, was made on 13 August 1913. He first called it rustless steel.",
+      "why": "Chromium makes a thin, tight oxide film that seals the surface, so an alloy can protect itself.",
+      "box": "coat",
+      "sources": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "year": 1924,
+      "date": "1924",
+      "era": "science",
+      "art": "inkpot",
+      "key": true,
+      "title": "Ulick Evans publishes The Corrosion of Metals",
+      "who": "Ulick R. Evans",
+      "where": "Cambridge, England",
+      "country": "United Kingdom",
+      "text": "Evans's book was the first textbook to explain the mechanisms of corrosion in a thorough way, with a focus on its electrochemical nature. It was soon translated into German, French and Russian. He later became known as a father of the modern science of corrosion.",
+      "why": "It set out rusting as a small electrochemical cell, the picture this box uses.",
+      "box": "cell",
+      "sources": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "year": 1933,
+      "date": "1933",
+      "era": "science",
+      "art": "wrench",
+      "title": "U.S. Steel patents the steel that rusts into a shield",
+      "who": "U.S. Steel",
+      "where": "United States",
+      "text": "U.S. Steel commercialised a steel containing small amounts of copper and other elements, first for railway hopper cars. Its corrosion resistance was noticed soon after, and the company named it Cor-Ten.",
+      "why": "It showed that a controlled rust layer can protect, if the alloy is right and the metal can dry between rains.",
+      "country": "United States",
+      "box": "others",
+      "sources": [
+        19
+      ]
+    },
+    {
+      "year": 1949,
+      "date": "1949",
+      "era": "cost",
+      "art": "trophy",
+      "title": "An early U.S. estimate of what corrosion costs",
+      "who": "U.S. cost studies",
+      "where": "United States",
+      "country": "United States",
+      "text": "A table of U.S. studies lists an estimate for 1949 of $5.5 billion, which is 2.1 percent of gross national product. The author is not named in the source I used.",
+      "why": "It is the start of a long series of efforts to put a price on rust.",
+      "box": "others",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 1964,
+      "date": "1964",
+      "era": "science",
+      "art": "building",
+      "title": "Weathering steel goes into bridges and buildings",
+      "who": "Architects and engineers",
+      "where": "United States",
+      "country": "United States",
+      "text": "The Moorestown Interchange over the New Jersey Turnpike (1964) is believed to be the first highway structure in weathering steel. The John Deere headquarters in Moline, Illinois, finished the same year, is believed to be the first building to use it as an architectural material.",
+      "why": "Steel was left bare on purpose and trusted to protect itself.",
+      "box": "others",
+      "sources": [
+        19
+      ]
+    },
+    {
+      "year": 1975,
+      "date": "1975",
+      "era": "cost",
+      "art": "trophy",
+      "title": "A U.S. estimate of $70 billion a year",
+      "who": "U.S. cost studies",
+      "where": "United States",
+      "country": "United States",
+      "text": "A table of U.S. studies lists an estimate for 1975 of $70 billion, which is 4.2 percent of gross national product. Different studies used different methods, so the figures are not directly comparable.",
+      "why": "It showed the bill was large and growing, and set the stage for the 2002 study.",
+      "box": "others",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "2000 to 2002",
+      "era": "cost",
+      "art": "compass",
+      "key": true,
+      "title": "Balasubramaniam explains why the Delhi pillar resists rust",
+      "who": "R. Balasubramaniam",
+      "where": "IIT Kanpur and NML, India",
+      "country": "India",
+      "text": "Balasubramaniam analysed rust from the pillar and found a thin layer of misawite (a form of iron oxyhydroxide) and a layer of iron phosphate, helped along by the high phosphorus in the iron. The pillar rusted quickly at first, for about three years, and then very little.",
+      "why": "The old smiths' iron was not magic: a particular kind of rust seals the surface, which links to weathering steel.",
+      "box": "others",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": 2002,
+      "date": "March 2002 (costs normalised to 1998)",
+      "era": "cost",
+      "art": "scales",
+      "key": true,
+      "title": "The U.S. counts the cost of corrosion",
+      "who": "Koch and colleagues, with the FHWA and NACE",
+      "where": "United States",
+      "country": "United States",
+      "text": "A federal study estimated the direct cost of corrosion in the United States at $276 billion a year, which is 3.1 percent of GDP. It was widely used as a template for later studies.",
+      "why": "It made a plain figure that governments could act on.",
+      "box": "others",
+      "sources": [
+        14,
+        15
+      ]
+    },
+    {
+      "year": 2010,
+      "date": "December 2010",
+      "era": "cost",
+      "art": "molecule",
+      "title": "A rust-eating bacterium is named from the Titanic",
+      "who": "Henrietta Mann, Bhavleen Kaur and colleagues",
+      "where": "Dalhousie University, Canada, and University of Seville, Spain",
+      "country": "Canada",
+      "text": "Researchers isolated a new bacterium, Halomonas titanicae, from a rusticle on the Titanic wreck about 3.8 kilometres down. In the lab it attached to steel and formed knobs of corrosion products, so it may help other microbes speed up the decay.",
+      "why": "Corrosion is not only chemistry: living things can speed it up in the deep sea.",
+      "box": "speed",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 2016,
+      "date": "8 March 2016",
+      "era": "cost",
+      "art": "earth",
+      "key": true,
+      "title": "The IMPACT study puts a global price on corrosion",
+      "who": "NACE International",
+      "where": "Vancouver, Canada (released at CORROSION 2016)",
+      "country": "Canada",
+      "text": "NACE International's IMPACT study estimated the global cost of corrosion at about US$2.5 trillion a year, roughly 3.4 percent of global GDP. It was built on national studies and extrapolated, so it is a rough guide, not an exact number.",
+      "why": "It is the best-known single figure for what rust and other corrosion cost the world.",
+      "box": "others",
+      "sources": [
+        12,
+        13
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First Royal Navy ship with a fully copper-sheathed hull",
+      "value": "1761",
+      "who": "HMS Alarm, Royal Navy"
+    },
+    {
+      "label": "First true stainless steel (0.24 % carbon, 12.8 % chromium)",
+      "value": "13 August 1913",
+      "who": "Harry Brearley, Sheffield, England"
+    },
+    {
+      "label": "First textbook to explain the mechanisms of corrosion thoroughly",
+      "value": "1924",
+      "who": "Ulick R. Evans, Cambridge, England"
+    },
+    {
+      "label": "Believed first highway structure in weathering steel",
+      "value": "1964",
+      "who": "Moorestown Interchange, New Jersey, USA"
+    }
+  ],
+  "people": [
+    {
+      "name": "Pliny the Elder",
+      "life": "",
+      "role": "Roman author and naturalist",
+      "from": "Rome",
+      "note": "Wrote down coatings that protect iron from rust."
+    },
+    {
+      "name": "Chandragupta II",
+      "life": "",
+      "role": "Gupta king linked to the Delhi pillar",
+      "from": "India",
+      "note": "The pillar's inscription names a ruler called Chandra, identified with him."
+    },
+    {
+      "name": "R. Balasubramaniam",
+      "life": "",
+      "role": "Metallurgist",
+      "from": "India",
+      "note": "Explained how the Delhi pillar's rust layer protects it."
+    },
+    {
+      "name": "Elizabeth Fulhame",
+      "life": "active 1794",
+      "role": "Chemist",
+      "from": "Scotland",
+      "note": "Argued that water takes part in oxidation reactions."
+    },
+    {
+      "name": "Humphry Davy",
+      "life": "",
+      "role": "Chemist",
+      "from": "England",
+      "note": "Showed in 1824 that a sacrificial metal can protect a ship's copper."
+    },
+    {
+      "name": "Michael Faraday",
+      "life": "",
+      "role": "Chemist and physicist",
+      "from": "England",
+      "note": "Proposed the words anode and cathode."
+    },
+    {
+      "name": "Harry Brearley",
+      "life": "1871 – 1948",
+      "role": "Metallurgist",
+      "from": "England",
+      "note": "Made the first true stainless steel in 1913."
+    },
+    {
+      "name": "Ulick R. Evans",
+      "life": "1889 – 1980",
+      "role": "Corrosion scientist",
+      "from": "England",
+      "note": "Wrote the first full textbook on corrosion mechanisms."
+    },
+    {
+      "name": "Henrietta Mann",
+      "life": "",
+      "role": "Microbiologist",
+      "from": "Canada",
+      "note": "Led the team that named the Titanic's rust-eating bacterium."
+    },
+    {
+      "name": "Bhavleen Kaur",
+      "life": "",
+      "role": "Microbiologist",
+      "from": "Canada",
+      "note": "Co-led the work on Halomonas titanicae."
+    }
+  ],
+  "series": [
+    {
+      "id": "cost",
+      "title": "What corrosion costs in the United States, as a share of national output",
+      "unit": "% of GNP or GDP",
+      "after": "science",
+      "caption": "Three U.S. estimates from three different studies. Methods differ, so treat the trend with care.",
+      "points": [
+        {
+          "year": 1949,
+          "value": 2.1,
+          "label": "1949 estimate: $5.5 billion, 2.1 % of GNP"
+        },
+        {
+          "year": 1975,
+          "value": 4.2,
+          "label": "1975 estimate: $70 billion, 4.2 % of GNP"
+        },
+        {
+          "year": 1998,
+          "value": 3.1,
+          "label": "FHWA/NACE study (costs for 1998): $276 billion, 3.1 % of GDP"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "The Delhi iron pillar has stood about 1,600 years, and its rust formed fast in the first three years then nearly stopped.",
+    "The Eiffel Tower's paint layers add up to about 3 millimetres after 19 repaintings.",
+    "Davy found a small area of iron was enough to keep a large area of copper clean: about 1 part to 150.",
+    "The first true stainless steel had 12.8 percent chromium.",
+    "A rust-eating bacterium was named from a rusticle on the Titanic, 3.8 kilometres down."
+  ],
+  "sources": [
+    {
+      "title": "200 Years On: Sir Humphry Davy and Cathodic Protection",
+      "publisher": "Institute of Corrosion (ICorr)",
+      "url": "https://www.icorr.org/200-years-on-sir-humphry-davy-and-cathodic-protection/"
+    },
+    {
+      "title": "New Insights on the Corrosion Resistant Delhi Iron Pillar (R. Balasubramaniam)",
+      "publisher": "CSIR National Metallurgical Laboratory, India (NML repository)",
+      "url": "https://eprints.nmlindia.org/5806"
+    },
+    {
+      "title": "Ancient Rust-Proof Iron Pillar Possibly Protected by Layer of \"Misawite\" (research news note, MRS Bulletin, Nov 2002)",
+      "publisher": "Materials Research Society, via Cambridge University Press",
+      "url": "https://cambridge.org/core/services/aop-cambridge-core/content/view/071BC041257A8AB5BEC37BED9462CE24/S0883769400022405a.pdf/ancient-rust-proof-iron-pillar-possibly-protected-by-layer-of-misawite-a-feooh.pdf"
+    },
+    {
+      "title": "Volta (The Royal Society and the Origins of Scientific Communication)",
+      "publisher": "Lehigh University Library exhibits",
+      "url": "https://exhibits.lib.lehigh.edu/exhibits/show/royalsociety/rd/volta"
+    },
+    {
+      "title": "Volta and the Battery",
+      "publisher": "ChemTeam (chemistry education site)",
+      "url": "https://web.chemteam.info/Chem-History/Volta-1800.html"
+    },
+    {
+      "title": "Harry Brearley: The man who discovered stainless steel",
+      "publisher": "Museums Sheffield (Burngreave Voices)",
+      "url": "https://www.sheffieldmuseums.org.uk/burngreave-voices/BrearleyH.html"
+    },
+    {
+      "title": "Brown-Firth Research Laboratories",
+      "publisher": "Grace's Guide to British Industrial History",
+      "url": "https://www.gracesguide.co.uk/Brown-Firth_Research_Laboratories"
+    },
+    {
+      "title": "Harry Brearley",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harry_Brearley"
+    },
+    {
+      "title": "U.R. Evans: A Visionary in Corrosion Science",
+      "publisher": "Institute of Corrosion (ICorr)",
+      "url": "https://www.icorr.org/u-r-evans-a-visionary-in-corrosion-science/"
+    },
+    {
+      "title": "U.R. Evans and The Corrosion of Metals: A Century of Influence",
+      "publisher": "Institute of Corrosion (ICorr)",
+      "url": "https://www.icorr.org/u-r-evans-and-the-corrosion-of-metals-a-century-of-influence/"
+    },
+    {
+      "title": "Ulick Richardson Evans",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ulick_Richardson_Evans"
+    },
+    {
+      "title": "The Corrosion of the Eiffel Tower",
+      "publisher": "IPCM (International Paint and Coating Magazine)",
+      "url": "https://www.ipcm.it/en/article/the-corrosion-of-the-eiffel-tower.aspx"
+    },
+    {
+      "title": "NACE study estimates global cost of corrosion at $2.5 trillion annually (NACE International release)",
+      "publisher": "Inspectioneering",
+      "url": "https://inspectioneering.com/news/2016-03-08/5202/nace-study-estimates-global-cost-of-corrosion-at-25-trillion-ann"
+    },
+    {
+      "title": "NACE Study Estimates Global Cost of Corrosion at $2.5 trillion annually",
+      "publisher": "Johnson Matthey",
+      "url": "https://www.jm.com/en/blog/2017/march/nace-study-estimates-global-cost-of-corrosion-at-25-trillion-annually/"
+    },
+    {
+      "title": "Cost of Corrosion Study",
+      "publisher": "AMPP (Association for Materials Protection and Performance)",
+      "url": "https://www.ampp.org/resources/cost-of-corrosion-study"
+    },
+    {
+      "title": "Proceedings of the Materials Forum 2007: Corrosion Education for the 21st Century, Session I: Motivation",
+      "publisher": "The National Academies Press",
+      "url": "https://www.nationalacademies.org/read/11948/chapter/2"
+    },
+    {
+      "title": "New microscopic life aboard the RMS Titanic (news release)",
+      "publisher": "Microbiology Society, via EurekAlert",
+      "url": "https://www.eurekalert.org/news-releases/707907"
+    },
+    {
+      "title": "Pliny, Natural History, Book 34, sections 94-178 (Rackham translation)",
+      "publisher": "Attalus.org",
+      "url": "https://www.attalus.org/translate/pliny_hn34b.html"
+    },
+    {
+      "title": "Galvanization",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galvanization"
+    },
+    {
+      "title": "Weathering steel",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Weathering_steel"
+    },
+    {
+      "title": "Cathodic protection",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cathodic_protection"
+    },
+    {
+      "title": "Elizabeth Fulhame",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Fulhame"
+    },
+    {
+      "title": "HMS Alarm (1758)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HMS_Alarm_(1758)"
+    }
+  ]
+}

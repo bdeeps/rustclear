@@ -1,0 +1,109 @@
+{
+  "slug": "rustclear",
+  "box": 238,
+  "date": "2026-12-05",
+  "title": "RustClear",
+  "question": "How does iron rust?",
+  "hook": "A drop of water on iron is a tiny battery: one spot gives up electrons, another takes them, and the result is flaky rust. Play with salt, zinc, paint and sacrificial anodes to see what speeds rust up, and what stops it.",
+  "thumbText": "HOW IRON RUSTS",
+  "field": "chemistry",
+  "minutes": 15,
+  "tags": [
+    "rust",
+    "iron",
+    "corrosion",
+    "electrochemistry",
+    "galvanising",
+    "stainless steel",
+    "chemistry",
+    "metals",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A battery on a drop",
+      "text": "Rust needs water as well as oxygen. Under a drop on iron, the centre has less oxygen than the edge. The centre becomes the anode, where iron gives up electrons and enters the water as Fe²⁺. The electrons run through the metal to the edge, the cathode, where oxygen takes them and makes hydroxide ions. Ions in the water complete the circuit."
+    },
+    {
+      "title": "From ions to flaky rust",
+      "text": "Fe²⁺ meets OH⁻ and forms pale iron(II) hydroxide. Oxygen oxidises it to iron(III), and the result is hydrated iron(III) oxide, Fe₂O₃·nH₂O: orange-brown rust. It is porous and takes up several times the volume of the iron it replaces, so it cracks and flakes off, and fresh metal is exposed again."
+    },
+    {
+      "title": "What speeds it up",
+      "text": "Salt turns the water into a better conductor, so the cell runs faster. A water film is needed, heat speeds up reactions, and acid helps too. Iron touching copper rusts faster because it becomes the anode of a bigger cell. Iron touching zinc is protected, because the zinc is the one that gives up electrons."
+    },
+    {
+      "title": "Barriers, and a trick",
+      "text": "Paint, oil and tin plating keep water and air off the iron, but only while they are whole. Scratched tin makes the iron rust faster, since tin is less reactive. Zinc coating, called galvanising, works as a barrier and also corrodes first if it is scratched. Stainless steel, with chromium, grows a very thin oxide film that heals itself."
+    },
+    {
+      "title": "Sacrifice and current",
+      "text": "Ship hulls and pipelines are protected by making the steel the cathode of a bigger cell. A block of zinc, aluminium alloy or magnesium is joined to the steel and slowly used up, or a power supply pushes electrons into the steel through an inert anode. Sacrificial anodes have to be replaced before they are gone."
+    },
+    {
+      "title": "Not all corrosion flakes",
+      "text": "Aluminium forms a thin oxide in a moment that seals it. Copper slowly grows a green patina. Weathering steel, sold as Cor-Ten, grows a tight rust layer that slows further attack. Plain steel's rust never seals. Corrosion costs the world a great deal: a 2016 estimate was about US$2.5 trillion a year, roughly 3.4 percent of world GDP."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Anode",
+      "def": "The place where a metal gives up electrons and dissolves. In rusting, the oxygen-poor centre of a water drop."
+    },
+    {
+      "term": "Cathode",
+      "def": "The place where electrons are taken up. In rusting, oxygen at the oxygen-rich edge takes them."
+    },
+    {
+      "term": "Electrolyte",
+      "def": "Water with dissolved ions in it. It carries current as moving ions, and salt makes it much better at this."
+    },
+    {
+      "term": "Rust",
+      "def": "Hydrated iron(III) oxide, Fe₂O₃·nH₂O, plus related iron oxides and hydroxides. It is porous and flaky and does not protect the iron."
+    },
+    {
+      "term": "Galvanic corrosion",
+      "def": "Extra corrosion of the more reactive of two different metals that touch in a wet place."
+    },
+    {
+      "term": "Galvanising",
+      "def": "Coating steel with zinc. The zinc is a barrier and also corrodes first if scratched."
+    },
+    {
+      "term": "Sacrificial anode",
+      "def": "A more reactive metal joined to steel that corrodes so that the steel does not."
+    },
+    {
+      "term": "Cathodic protection",
+      "def": "Protecting a metal by making it the cathode of a cell, using sacrificial anodes or an applied current."
+    },
+    {
+      "term": "Passive film",
+      "def": "A very thin oxide layer that slows further corrosion. Stainless steel has one rich in chromium."
+    },
+    {
+      "term": "Patina",
+      "def": "A thin layer that forms on a metal over time. On copper it is green and protective."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "rustclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
